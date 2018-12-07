@@ -76,7 +76,8 @@ Here in this model the delay of 100ms is countered by considering the actuator o
 ### The vehicle must successfully drive a lap around the track.
 
 A short video with the final parameters is [here](https://www.youtube.com/watch?v=sR-IIAfhkRg).
-[![PID Controller](https://img.youtube.com/vi/sR-IIAfhkRg/0.jpg)](https://www.youtube.com/watch?v=sR-IIAfhkRg)
+
+[![MPC Controller](https://img.youtube.com/vi/sR-IIAfhkRg/0.jpg)](https://www.youtube.com/watch?v=sR-IIAfhkRg)
 
 
 
