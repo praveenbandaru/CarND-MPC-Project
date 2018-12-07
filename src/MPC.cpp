@@ -125,8 +125,9 @@ public:
       AD<double> delta0 = vars[delta_start + t - 1];
       AD<double> a0 = vars[a_start + t - 1];
 
+      // Fix for Latency. Use the previous activation at time t-1
       if (t > 1)
-      { // use previous actuations (to account for latency)
+      { 
         delta0 = vars[delta_start + t - 2];
         a0 = vars[a_start + t - 2];
       }
